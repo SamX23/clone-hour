@@ -1,0 +1,119 @@
+/* Made by Sami kalammallah on 25/11/2021 */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  justify-content: space-between;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+  object-fit: cover;
+}
+
+textarea:focus,
+input:focus {
+  outline: none;
+}
+
+.container {
+  margin: 0 1rem;
+}
+
+nav {
+  max-height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 1rem;
+  padding: 2rem 0;
+}
+
+.nav_menu {
+  background: none;
+  border: 0;
+}
+
+.nav_menu i {
+  font-size: 2rem;
+}
+
+.nav_profile {
+  border: 0;
+}
+
+.nav_profile,
+.nav_profile img {
+  width: 2.2rem;
+  height: 2.2rem;
+  border-radius: 50%;
+}
+
+main {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+main h1 {
+  font-size: 4rem;
+}
+
+.search_barInput {
+  border: 1px solid black;
+  border-radius: 10rem;
+  padding: 0 1rem;
+}
+
+.search_barInput input {
+  border: 0;
+  width: 30rem;
+  height: 2rem;
+}
+
+.search_button button {
+  margin: 0 0.5rem;
+  padding: 0.3rem 0.5rem;
+  border-radius: 5px;
+  border-width: thin;
+}
+
+.search_tips span a:first-child {
+  margin-right: 0.5rem;
+}
+
+footer {
+  padding: 1rem 0;
+}
+
+.footer_lang {
+  padding: 0.5rem 0;
+}
+
+footer hr {
+  margin: 0 -1rem;
+}
+
+.footer_menu {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 0;
+}
+
+.footer_menu a:not(a:first-child, a:last-child) {
+  padding: 0 0.5rem;
+}
