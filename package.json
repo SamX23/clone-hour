@@ -1,0 +1,9 @@
+{
+  "name": "clone-hour",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/SamX23/clone-hour",
+  "author": "Samx23 <skalexsong@gmail.com>",
+  "license": "MIT",
+  "private": false
+}
